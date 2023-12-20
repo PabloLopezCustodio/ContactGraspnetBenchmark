@@ -13,18 +13,18 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     # python version == 3.7.9
     install_requires=[
-        "numpy",
+        "numpy=1.19.2",
         "opencv-python",
         "opencv-python-headless",
-        "tensorflow==2.11.0",
+        "tensorflow==2.2.0",
         "pyyaml==5.3.1",
         "Pillow",
         "trimesh",
-        "scipy",
+        "scipy==1.4.1",
         "pyrender==0.1.43",
         "pyglet==1.5.9",
         "tqdm",
-        "matplotlib",
+        "matplotlib=3.3.2",
         # the dependencies below have been added during refactoring
         "nptyping",  # for tf tensors we use string annotations for now
         "appdirs",
